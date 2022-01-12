@@ -1,0 +1,22 @@
+<div class="card border-primary mb-3" style = "max-width: 18rem;">
+  <div class="card-header">Mascotas</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title">Listado de clientes</h5>
+    <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>nombre de la mascota</th>
+          <th>especie</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let cliente of clientes">
+          <th>{{cliente.id}}</th>
+          <th>{{cliente.nombreMascota}}</th>
+          <th>{{cliente.especie}}</th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Angular ###
+/QRProyect-front/node_modules
+/QRProyect-front/.angular
